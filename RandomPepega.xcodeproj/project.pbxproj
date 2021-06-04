@@ -20,6 +20,8 @@
 		5F87858B26629BE80052418A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F87858A26629BE80052418A /* Assets.xcassets */; };
 		5F87858E26629BE80052418A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F87858D26629BE80052418A /* Preview Assets.xcassets */; };
 		5F8785A326629BFB0052418A /* PepeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8785A226629BFB0052418A /* PepeService.swift */; };
+		5FA7E2D2266AACD4002CA68C /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7E2D1266AACD4002CA68C /* Emoji.swift */; };
+		5FA7E2D9266AACFB002CA68C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7E2D8266AACFB002CA68C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		5F87858F26629BE80052418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F87859026629BE80052418A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		5F8785A226629BFB0052418A /* PepeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeService.swift; sourceTree = "<group>"; };
+		5FA7E2D1266AACD4002CA68C /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		5FA7E2D8266AACFB002CA68C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +133,11 @@
 			children = (
 				5F87857E26629BE80052418A /* HostingController.swift */,
 				5F87858026629BE80052418A /* ContentView.swift */,
+				5FA7E2D7266AACF1002CA68C /* ViewModels */,
 				5F87858226629BE80052418A /* ExtensionDelegate.swift */,
 				5F87858426629BE80052418A /* NotificationController.swift */,
-				5F8785A226629BFB0052418A /* PepeService.swift */,
+				5FA7E2D6266AACE2002CA68C /* Services */,
+				5FA7E2D0266AACCB002CA68C /* Models */,
 				5F87858626629BE80052418A /* NotificationView.swift */,
 				5F87858826629BE80052418A /* ComplicationController.swift */,
 				5F87858A26629BE80052418A /* Assets.xcassets */,
@@ -148,6 +154,30 @@
 				5F87858D26629BE80052418A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FA7E2D0266AACCB002CA68C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7E2D1266AACD4002CA68C /* Emoji.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FA7E2D6266AACE2002CA68C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F8785A226629BFB0052418A /* PepeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5FA7E2D7266AACF1002CA68C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7E2D8266AACFB002CA68C /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA7E2D9266AACFB002CA68C /* ViewModel.swift in Sources */,
 				5F87858126629BE80052418A /* ContentView.swift in Sources */,
 				5F87857F26629BE80052418A /* HostingController.swift in Sources */,
+				5FA7E2D2266AACD4002CA68C /* Emoji.swift in Sources */,
 				5F87858526629BE80052418A /* NotificationController.swift in Sources */,
 				5F87858326629BE80052418A /* ExtensionDelegate.swift in Sources */,
 				5F8785A326629BFB0052418A /* PepeService.swift in Sources */,

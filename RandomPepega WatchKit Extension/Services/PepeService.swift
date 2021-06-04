@@ -8,13 +8,6 @@
 import Foundation
 import Combine
 
-struct Emoji: Decodable, Identifiable {
-    var id: UInt
-    var image: String
-    var category: UInt
-    var description: String
-}
-
 struct NoPepegaError: Error {}
 
 class PepeService {
