@@ -19,6 +19,7 @@
 		5F87858926629BE80052418A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87858826629BE80052418A /* ComplicationController.swift */; };
 		5F87858B26629BE80052418A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F87858A26629BE80052418A /* Assets.xcassets */; };
 		5F87858E26629BE80052418A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F87858D26629BE80052418A /* Preview Assets.xcassets */; };
+		5F8785A326629BFB0052418A /* PepeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8785A226629BFB0052418A /* PepeService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		5F87858D26629BE80052418A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F87858F26629BE80052418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F87859026629BE80052418A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5F8785A226629BFB0052418A /* PepeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				5F87858026629BE80052418A /* ContentView.swift */,
 				5F87858226629BE80052418A /* ExtensionDelegate.swift */,
 				5F87858426629BE80052418A /* NotificationController.swift */,
+				5F8785A226629BFB0052418A /* PepeService.swift */,
 				5F87858626629BE80052418A /* NotificationView.swift */,
 				5F87858826629BE80052418A /* ComplicationController.swift */,
 				5F87858A26629BE80052418A /* Assets.xcassets */,
@@ -163,6 +166,8 @@
 				5F87856D26629BE70052418A /* PBXTargetDependency */,
 			);
 			name = RandomPepega;
+			packageProductDependencies = (
+			);
 			productName = RandomPepega;
 			productReference = 5F87856626629BE70052418A /* RandomPepega.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -230,6 +235,8 @@
 				Base,
 			);
 			mainGroup = 5F87855F26629BE60052418A;
+			packageReferences = (
+			);
 			productRefGroup = 5F87856726629BE70052418A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -278,6 +285,7 @@
 				5F87857F26629BE80052418A /* HostingController.swift in Sources */,
 				5F87858526629BE80052418A /* NotificationController.swift in Sources */,
 				5F87858326629BE80052418A /* ExtensionDelegate.swift in Sources */,
+				5F8785A326629BFB0052418A /* PepeService.swift in Sources */,
 				5F87858726629BE80052418A /* NotificationView.swift in Sources */,
 				5F87858926629BE80052418A /* ComplicationController.swift in Sources */,
 			);
